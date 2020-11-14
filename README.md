@@ -12,7 +12,7 @@ java -jar target/spring-jwt-backend-template-0.0.1-SNAPSHOT.jar
   - Install dependencies and create a jar file on the target folder.
   - Run the web application from jar file that has been created.
 
-Run this command to install the dependencies
+Run this command (At the frontend repository) to install the dependencies
 ## `npm i`
 
 ## Run frontend React (At the frontend repository)
