@@ -12,6 +12,9 @@ java -jar target/spring-jwt-backend-template-0.0.1-SNAPSHOT.jar
   - Install dependencies and create a jar file on the target folder.
   - Run the web application from jar file that has been created.
 
+Run this command to install the dependencies
+## `npm i`
+
 ## Run frontend React (At the frontend repository)
 ### `npm run start`
 
@@ -23,7 +26,7 @@ You will also see any lint errors in the console.
 
 After you have logged in, access the database to give these permissions to your user  
 
-Open [http://localhost:8080/h2-console](http://localhost:8080/h2-console)
+Open [http://localhost:8080/h2-console](http://localhost:8080/h2-console)  
 username: sa  
 password: <empty>  
 
@@ -48,7 +51,7 @@ INSERT INTO USERS_PRIVILEGES  (USER_ID,PRIVILEGE_ID) VALUES
 
 ### `npm run test`
 
-Launches the test runner in the interactive watch mode.<br />
+Launches the test runner in the interactive watch mode.  
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
