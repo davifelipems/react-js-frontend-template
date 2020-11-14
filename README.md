@@ -1,4 +1,6 @@
 
+![Preview](http://www.davifelipe.com.br/react-js-frontend.gif)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 This is a React js font end template. You can get the [Back end repository](https://github.com/davifelipems/spring-backend-template)
