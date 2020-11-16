@@ -23,7 +23,7 @@ import {formValueSelector} from 'redux-form'
 class UserList extends Component {
     
     componentDidMount(){
-        this.props.getList(this.props,this.props.currentPage,this.props.veluesFormSearch);
+        this.props.getList(this.props,0,this.props.veluesFormSearch);
     }
 
     confirmDelete(id,email){
