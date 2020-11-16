@@ -20,7 +20,7 @@ import {formValueSelector} from 'redux-form'
 class CategoryList extends Component {
     
     componentDidMount(){
-        this.props.getList(this.props,this.props.currentPage,{"name":this.props.nameSearch});
+        this.props.getList(this.props,0,{"name":this.props.nameSearch});
     }
 
     confirmDelete(id){
