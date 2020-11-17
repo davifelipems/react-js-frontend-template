@@ -33,7 +33,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => (
       isAuthenticated() ? (
         <div className='content-wrapper'>
           <Header />
-          <SideBar />
+          <SideBar {...props} />
           <Component {...props} />
           <Messages />
         </div>
