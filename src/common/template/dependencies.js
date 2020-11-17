@@ -7,10 +7,11 @@ import '../../styles/global';
 
 if(!process.env.JEST_WORKER_ID){
     Promise.all([
-        import('modules/admin-lte/plugins/jQueryUI/jquery-ui.min'),
-        import('modules/admin-lte/plugins/fastclick/fastclick'),
-        import('modules/admin-lte/plugins/slimScroll/jquery.slimscroll.min'),
-        import('modules/admin-lte/dist/js/app.min')
+        import('admin-lte/plugins/jQueryUI/jquery-ui.min'),
+        import('admin-lte/bootstrap/js/bootstrap.min'),
+        import('admin-lte/dist/js/app.min'),
+        import('admin-lte/plugins/fastclick/fastclick'),
+        import('admin-lte/plugins/slimScroll/jquery.slimscroll.min')
     ])
     .then(([module1]) => {
         //Does not load these dependencies in a test environment
