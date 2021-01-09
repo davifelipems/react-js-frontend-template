@@ -1,5 +1,5 @@
 
-![Preview](http://www.davifelipe.com.br/react-js-frontend.gif)
+![Preview](https://raw.githubusercontent.com/davifelipems/react-js-frontend-template/blob/blob/react-js-frontend.gif)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
